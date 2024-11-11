@@ -1,0 +1,231 @@
+/* Genel Stil */
+html {
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2d363e;
+    color: white;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+.bodi{
+    background-image: url(/fotolar/02_Summoner_s_Rift_hi182k3q611izhk9dbql.jpg);
+    background-size: contain;
+    animation: backgroundAnimation 10s infinite alternate;
+      overflow: hidden;
+}
+ @keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position:0%50%;}
+}    
+
+.ust_kisim{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.ust_kisim .logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.ust_kisim .foto_sag{
+    margin: 0;
+    padding: 0;
+ top: 100px;
+right: 200px;
+height: 50px;
+}
+.ust_kisim .foto_orta{
+    margin: 0;
+    padding: 0;
+  top: 40px;
+}
+
+.yazilar {
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ffd700; 
+    padding-top: 0;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.kayan_yazi {
+    font-size: 18px;
+    color: #ffd700;
+    white-space: nowrap;
+    overflow: hidden;
+ 
+}
+
+.duran_yazi {
+    font-size: 18px;
+    color: #ffd700;
+   margin-right: 150px;
+}
+.navbar a:hover, .asil:hover .anabtn {
+    background-color: #2980b9;
+    border-radius: 10px;
+  }
+  .asil-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .asil-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .asil-content a:hover {
+    background-color: #2980b9;
+  }
+  .asil:hover .asil-content {
+    display: block;
+  }
+/* Navbar Stili */
+  .navbar {
+            width: 100%;
+            
+            background-color: #34495e;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+.navbar .links{
+
+    display: flex;
+    gap: 70px;
+    margin-top: 5px;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.anasayfa{
+    display: flex;       
+    
+}
+.asil .anabtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+.asil{
+    margin-right: 20px;
+}
+.ic_kisimlar{
+    margin-top:10px ;
+}
+.diger_kisimlar{
+    margin-top:10px ;
+}
+
+.navbar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+
+
+.content {
+    padding: 20px;
+    color: #fff;
+}
+h2 {
+    color: #ffd700;
+}
+.section {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgba(255, 99, 71, 0.2);
+    border-radius: 10px;
+}
+#Anasayfa{
+    margin-top: 100px;
+}
+.profilim{
+    display: flex;
+}
+  /* Oyun Kartları Stili */
+  .hero-grid {
+    display: flex;
+    gap: 20px; /* Kutular arasındaki boşluk */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hero-card {
+    background-color: #2d363e;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%; /* Kutuların genişliği */
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+}
+.hero-card img {
+    
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #2d363e;
+    margin-left: 100px;
+}
+.main-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-column,
+.center-column,
+.right-column {
+    background-color: rgba(45, 54, 62, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.left-column {
+    width: 20%;
+}
+.left-column li{
+    margin-top: 30px;
+}
+
+.center-column {
+    width: 50%;
+}
+
+.right-column {
+    width: 20%;
+}
+
